@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "color-contrast",
+  "version": "0.1.0",
+  "description": "Color Contrast Checker using different Web Frameworks and Plain JS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timvancleef/color-contrast.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timvancleef/color-contrast/issues"
+  },
+  "homepage": "https://github.com/timvancleef/color-contrast#readme"
+}
