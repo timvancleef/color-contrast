@@ -1,0 +1,23 @@
+{
+  "name": "contrast",
+  "version": "0.1.0",
+  "description": "Library that provides the color contrast calculation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timvancleef/color-contrast.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timvancleef/color-contrast/issues"
+  },
+  "homepage": "https://github.com/timvancleef/color-contrast#readme",
+  "devDependencies": {
+    "jest": "27.5.1"
+  }
+}
