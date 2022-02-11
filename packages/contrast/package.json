@@ -2,13 +2,16 @@
   "name": "contrast",
   "version": "0.1.0",
   "description": "Library that provides the color contrast calculation",
-  "main": "index.js",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "private": true,
   "type": "module",
   "scripts": {
+    "clean": "rm -rf build",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --collectCoverage"
+    "test:coverage": "jest --collectCoverage",
+    "build": "tsc --project tsconfig.build.json"
   },
   "repository": {
     "type": "git",

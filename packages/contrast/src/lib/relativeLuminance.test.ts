@@ -1,4 +1,5 @@
-import { ColorInput, relativeLuminance } from "./relativeLuminance";
+import { relativeLuminance } from "./relativeLuminance";
+import { ColorInput } from "./types";
 
 describe("relativeLuminance", (): void => {
   it("should be defined", (): void => {
