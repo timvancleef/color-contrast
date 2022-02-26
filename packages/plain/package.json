@@ -1,18 +1,16 @@
 {
-  "name": "contrast",
+  "name": "plain",
   "version": "0.1.0",
-  "description": "Library that provides the color contrast calculation",
-  "module": "build/index.js",
-  "type": "module",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "description": "",
   "private": true,
+  "type": "module",
   "scripts": {
     "clean": "rm -rf build",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --collectCoverage",
-    "build": "tsc --project tsconfig.build.json"
+    "build": "node scripts/build.js",
+    "start": "node scripts/serve.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +28,7 @@
     "@types/node": "17.0.17",
     "@typescript-eslint/eslint-plugin": "5.11.0",
     "@typescript-eslint/parser": "5.11.0",
+    "esbuild": "0.14.23",
     "eslint": "8.8.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "4.0.0",
